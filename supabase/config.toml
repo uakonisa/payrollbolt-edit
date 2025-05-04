@@ -1,0 +1,12 @@
+project_id = "jukrxqwnrluyfxjszpkj"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "storage"]
+
+[db]
+port = 54322
+
+[functions.notify-leave-request]
+verify_jwt = true
